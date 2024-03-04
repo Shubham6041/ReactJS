@@ -1,5 +1,5 @@
 # Basic ReactJS 01
-# index.html file
+## index.html file
 
 ```html
 <!doctype html>
@@ -16,7 +16,7 @@
   </body>
 </html>
 ```
-# main.jsx file
+## main.jsx file
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom/client'
@@ -39,6 +39,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 ```
 ## App.jsx file
 ```jsx
+import One from "./one"; // this file is just for understanding purpose that how we can manipulate the files
+
 function App() {
   return (
     <>
