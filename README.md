@@ -5,9 +5,6 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
   </head>
   <body>
@@ -52,4 +49,26 @@ function App() {
 
 export default App;
 
+```
+# 02
+
+## main.jsx
+```jsx
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+
+
+function MyApp()
+{
+  return(
+    <h1>Hello World</h1>
+  )
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  
+  // <MyApp />
+  MyApp()
+  
+)
 ```
