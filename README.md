@@ -173,3 +173,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   
 )
 ```
+# 05
+## hooks
+hooks are functions that allow you to use state and other react features in functional components.
