@@ -113,6 +113,21 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 ```
 # 04
 In React, you can use variables by embedding JavaScript expressions inside curly braces {} within JSX.
+## app.jsx
+```jsx
+
+function App() {
+  let sum = 2 + 2
+  return (
+    <>
+      <h3>Welcome to My page</h3>
+      <p>The sum is {sum}</p>
+    </>
+  )
+}
+
+export default App;
+```
 ## main.jsx
 ```jsx
 import React from 'react'
