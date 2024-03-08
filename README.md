@@ -74,7 +74,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 ```
 # 03
 ## main.jsx
-creating an element in react
+### creating an element in react
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom/client'
