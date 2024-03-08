@@ -112,7 +112,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 )
 ```
 # 04
-### we can create variable in react and use it. we can use {} for the variables.
+In React, you can use variables by embedding JavaScript expressions inside curly braces {} within JSX.
 ## main.jsx
 ```jsx
 import React from 'react'
