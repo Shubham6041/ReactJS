@@ -72,3 +72,42 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   
 )
 ```
+# 03
+## main.jsx
+creating an element in react
+```jsx
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+
+
+function MyApp()
+{
+  return(
+    <h1>Hello World</h1>
+  )
+}
+
+let reactElement = React.createElement(
+  'h2',
+  { },
+  "Learning react"
+)
+
+let another = React.createElement(
+  'a',
+  {href:'https://github.com/Shubham6041/ReactJS'},
+  "Click here"
+)
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  
+  <>
+    <MyApp/>
+    {reactElement}
+    {another}
+    
+  </>
+  
+  
+)
+```
