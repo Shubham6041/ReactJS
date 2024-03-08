@@ -111,3 +111,50 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   
 )
 ```
+# 04
+### we can create variable in react and use it. we can use {} for the variables.
+## main.jsx
+```jsx
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+
+
+function MyApp()
+{
+
+  let myName = "'Shubham'"
+  
+  return(
+    <h1>Hello World {myName}</h1>
+  )
+}
+
+let str = "Welcome"
+
+let reactElement = React.createElement(
+  'h2',
+  { },
+  "Learning react ",
+  str
+  
+)
+
+let another = React.createElement(
+  'a',
+  {href:'https://github.com/Shubham6041/ReactJS'},
+  "Click here"
+)
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  
+  <>
+    <MyApp/>
+    {reactElement}
+    {another}
+    {str}
+    
+  </>
+  
+  
+)
+```
